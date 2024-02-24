@@ -1,6 +1,6 @@
 Thanks for visiting my GitHub account!
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1200px-Matlab_Logo.png" width="400" height="250" alt="PHP"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1200px-Matlab_Logo.png" width="150" height="200" alt="PHP"></p>
 
 ## ABOUT MATLAB
 
