@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- MathWorks Locale Database -->
+<!-- File Name: lcdata_utf8.xml -->
+<!-- Copyright 2007-2016 The MathWorks, Inc. -->
+<lcdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lcdata.xsd">
+    <!-- Codeset entry -->
+    <codeset>
+        <encoding name="Big5" jvm_encoding="MS950">
+            <encoding_alias name="950"/>
+        </encoding>
+        <encoding name="Big5-HKSCS" compat="Big5">
+            <encoding_alias name="Big5HKSCS"/>
+        </encoding>
+        <encoding name="CP1131">
+            <encoding_alias name="ibm-1131_P100-1997"/>
+        </encoding>
+        <encoding name="CP949">
+            <encoding_alias name="ibm-949_P110-1999"/>
+        </encoding>
+        <encoding name="EUC-JP">
+            <encoding_alias name="eucjp"/>
+        </encoding>
+        <encoding name="EUC-KR" compat="windows-949">
+            <encoding_alias name="euckr"/>
+        </encoding>
+        <encoding name="EUC-TW">
+            <encoding_alias name="euc-tw-2014"/>
+            <encoding_alias name="euctw"/>
+            <encoding_alias name="ibm-964_P110-1999"/>
+        </encoding>
+        <encoding name="GB18030"/>
+        <encoding name="GB2312" compat="GBK">
+            <encoding_alias name="EUC-CN"/>
+            <encoding_alias name="euccn"/>
+        </encoding>
+        <encoding name="GBK">
+            <encoding_alias name="936"/>
+        </encoding>
+        <encoding name="IBM866">
+            <encoding_alias name="CP866"/>
+        </encoding>
+        <encoding name="ISCII-DEV">
+            <encoding_alias name="windows-57002"/>
+        </encoding>
+        <encoding name="ISO-8859-1" compat="windows-1252">
+            <encoding_alias name="ISO8859-1"/>
+            <encoding_alias name="ISO88591"/>
+        </encoding>
+        <encoding name="ISO-8859-10" compat="windows-1257">
+            <encoding_alias name="ISO8859-10"/>
+            <encoding_alias name="ISO885910"/>
+        </encoding>
+        <encoding name="ISO-8859-11" compat="windows-874">
+            <encoding_alias name="ISO8859-11"/>
+            <encoding_alias name="ISO885911"/>
+            <encoding_alias name="iso-8859_11-2001"/>
+        </encoding>
+        <encoding name="ISO-8859-13" compat="windows-1257">
+            <encoding_alias name="ISO8859-13"/>
+            <encoding_alias name="ISO885913"/>
+        </encoding>
+        <encoding name="ISO-8859-14" compat="windows-1252">
+            <encoding_alias name="ISO8859-14"/>
+            <encoding_alias name="ISO885914"/>
+        </encoding>
+        <encoding name="ISO-8859-15" compat="windows-1252">
+            <encoding_alias name="ISO8859-15"/>
+            <encoding_alias name="ISO885915"/>
+        </encoding>
+        <encoding name="ISO-8859-2" compat="windows-1250">
+            <encoding_alias name="ISO8859-2"/>
+            <encoding_alias name="ISO88592"/>
+        </encoding>
+        <encoding name="ISO-8859-3" compat="windows-1254">
+            <encoding_alias name="ISO8859-3"/>
+            <encoding_alias name="ISO88593"/>
+        </encoding>
+        <encoding name="ISO-8859-4" compat="windows-1257">
+            <encoding_alias name="ISO8859-4"/>
+            <encoding_alias name="ISO88594"/>
+        </encoding>
+        <encoding name="ISO-8859-5" compat="windows-1251">
+            <encoding_alias name="ISO8859-5"/>
+            <encoding_alias name="ISO88595"/>
+        </encoding>
+        <encoding name="ISO-8859-6" compat="windows-1256">
+            <encoding_alias name="ISO8859-6"/>
+            <encoding_alias name="ISO88596"/>
+        </encoding>
+        <encoding name="ISO-8859-7" compat="windows-1253">
+            <encoding_alias name="ISO8859-7"/>
+            <encoding_alias name="ISO88597"/>
+        </encoding>
+        <encoding name="ISO-8859-8" compat="windows-1255">
+            <encoding_alias name="ISO8859-8"/>
+            <encoding_alias name="ISO88598"/>
+        </encoding>
+        <encoding name="ISO-8859-9" compat="windows-1254">
+            <encoding_alias name="ISO8859-9"/>
+            <encoding_alias name="ISO88599"/>
+        </encoding>
+        <encoding name="KOI8-R" compat="windows-1251">
+            <encoding_alias name="koi8r"/>
+        </encoding>
+        <encoding name="KOI8-U">
+            <encoding_alias name="koi8u"/>
+        </encoding>
+        <encoding name="Shift_JIS" jvm_encoding="MS932">
+            <encoding_alias name="932"/>
+            <encoding_alias name="SJIS"/>
+            <encoding_alias name="Shift-JIS"/>
+            <encoding_alias name="Windows-31J"/>
+            <encoding_alias name="Windows31J"/>
+        </encoding>
+        <encoding name="US-ASCII">
+            <encoding_alias name="ANSI_X3.4-1968"/>
+        </encoding>
+        <encoding name="UTF-8">
+            <encoding_alias name="utf8"/>
+        </encoding>
+        <encoding name="windows-1250" jvm_encoding="Cp1250">
+            <encoding_alias name="1250"/>
+        </encoding>
+        <encoding name="windows-1251" jvm_encoding="Cp1251">
+            <encoding_alias name="1251"/>
+        </encoding>
+        <encoding name="windows-1252" jvm_encoding="Cp1252">
+            <encoding_alias name="1252"/>
+        </encoding>
+        <encoding name="windows-1253" jvm_encoding="Cp1253">
+            <encoding_alias name="1253"/>
+        </encoding>
+        <encoding name="windows-1254" jvm_encoding="Cp1254">
+            <encoding_alias name="1254"/>
+        </encoding>
+        <encoding name="windows-1255" jvm_encoding="Cp1255">
+            <encoding_alias name="1255"/>
+        </encoding>
+        <encoding name="windows-1256" jvm_encoding="Cp1256">
+            <encoding_alias name="1256"/>
+        </encoding>
+        <encoding name="windows-1257" jvm_encoding="Cp1257">
+            <encoding_alias name="1257"/>
+        </encoding>
+        <encoding name="windows-1258" jvm_encoding="Cp1258">
+            <encoding_alias name="1258"/>
+        </encoding>
+        <encoding name="windows-874" jvm_encoding="MS874">
+            <encoding_alias name="874"/>
+            <encoding_alias name="TIS620"/>
+        </encoding>
+        <encoding name="windows-949" jvm_encoding="MS949">
+            <encoding_alias name="949"/>
+            <encoding_alias name="KSC_5601"/>
+        </encoding>
+    </codeset>
+    <!-- Locale entries -->
+    <locale name="af_ZA" encoding="UTF-8" xpg_name="af_ZA.UTF-8">
+        <alias name="af"/>
+    </locale>
+    <locale name="am_ET" encoding="UTF-8" xpg_name="am_ET.UTF-8"/>
+    <locale name="ar_EG" encoding="UTF-8">
+        <alias name="ar"/>
+    </locale>
+    <locale name="be_BY" encoding="UTF-8" xpg_name="be_BY.UTF-8"/>
+    <locale name="bg_BG" encoding="UTF-8" xpg_name="bg_BG.UTF-8"/>
+    <locale name="br_FR" encoding="UTF-8">
+        <alias name="br"/>
+    </locale>
+    <locale name="ca_ES" encoding="UTF-8" xpg_name="ca_ES.UTF-8">
+        <alias name="ca"/>
+    </locale>
+    <locale name="cs_CZ" encoding="UTF-8" xpg_name="cs_CZ.UTF-8">
+        <alias name="cz"/>
+        <alias name="cz_CZ"/>
+    </locale>
+    <locale name="da_DK" encoding="UTF-8" xpg_name="da_DK.UTF-8">
+        <alias name="da"/>
+    </locale>
+    <locale name="de_AT" encoding="UTF-8" xpg_name="de_AT.UTF-8"/>
+    <locale name="de_CH" encoding="UTF-8" xpg_name="de_CH.UTF-8"/>
+    <locale name="de_DE" encoding="UTF-8" xpg_name="de_DE.UTF-8"/>
+    <locale name="el_GR" encoding="UTF-8" xpg_name="el_GR.UTF-8">
+        <alias name="el"/>
+    </locale>
+    <locale name="en_029" encoding="UTF-8">
+        <alias name="en_CB"/>
+    </locale>
+    <locale name="en_AU" encoding="UTF-8" xpg_name="en_AU.UTF-8"/>
+    <locale name="en_CA" encoding="UTF-8" xpg_name="en_CA.UTF-8"/>
+    <locale name="en_GB" encoding="UTF-8" xpg_name="en_GB.UTF-8">
+        <alias name="en_UK"/>
+    </locale>
+    <locale name="en_IE" encoding="UTF-8" xpg_name="en_IE.UTF-8"/>
+    <locale name="en_NZ" encoding="UTF-8" xpg_name="en_NZ.UTF-8"/>
+    <locale name="en_US" encoding="UTF-8" xpg_name="en_US.UTF-8">
+        <alias name="en"/>
+    </locale>
+    <locale name="en_US_POSIX" encoding="US-ASCII" xpg_name="C">
+        <alias name="C"/>
+        <alias name="POSIX"/>
+    </locale>
+    <locale name="es_ES" encoding="UTF-8" xpg_name="es_ES.UTF-8">
+        <alias name="es-ES_tradnl"/>
+    </locale>
+    <locale name="et_EE" encoding="UTF-8" xpg_name="et_EE.UTF-8"/>
+    <locale name="eu_ES" encoding="UTF-8" xpg_name="eu_ES.UTF-8">
+        <alias name="eu"/>
+    </locale>
+    <locale name="fa_IR" encoding="UTF-8">
+        <alias name="fa"/>
+    </locale>
+    <locale name="fi_FI" encoding="UTF-8" xpg_name="fi_FI.UTF-8"/>
+    <locale name="fr_CA" encoding="UTF-8" xpg_name="fr_CA.UTF-8"/>
+    <locale name="fr_CH" encoding="UTF-8" xpg_name="fr_CH.UTF-8"/>
+    <locale name="fr_FR" encoding="UTF-8" xpg_name="fr_FR.UTF-8"/>
+    <locale name="ga_IE" encoding="UTF-8">
+        <alias name="ga"/>
+    </locale>
+    <locale name="gv_GB" encoding="UTF-8">
+        <alias name="gv"/>
+    </locale>
+    <locale name="ha-Latn_NG" encoding="UTF-8">
+        <alias name="ha_NG"/>
+    </locale>
+    <locale name="he_IL" encoding="UTF-8" xpg_name="he_IL.UTF-8">
+        <alias name="iw"/>
+        <alias name="iw_IL"/>
+    </locale>
+    <locale name="hi_IN" encoding="UTF-8">
+        <alias name="hi"/>
+    </locale>
+    <locale name="hr_HR" encoding="UTF-8" xpg_name="hr_HR.UTF-8">
+        <alias name="sh_HR"/>
+    </locale>
+    <locale name="hu_HU" encoding="UTF-8" xpg_name="hu_HU.UTF-8"/>
+    <locale name="hy_AM" encoding="UTF-8" xpg_name="hy_AM.UTF-8">
+        <alias name="hy"/>
+        <alias name="hy_AM_REVISED"/>
+    </locale>
+    <locale name="id_ID" encoding="UTF-8">
+        <alias name="in"/>
+        <alias name="in_ID"/>
+    </locale>
+    <locale name="is_IS" encoding="UTF-8" xpg_name="is_IS.UTF-8"/>
+    <locale name="it_CH" encoding="UTF-8" xpg_name="it_CH.UTF-8"/>
+    <locale name="it_IT" encoding="UTF-8" xpg_name="it_IT.UTF-8"/>
+    <locale name="ja_JP" encoding="UTF-8" xpg_name="ja_JP.SJIS"/>
+    <locale name="kk_KZ" encoding="UTF-8" xpg_name="kk_KZ.UTF-8">
+        <alias name="kk"/>
+    </locale>
+    <locale name="kl_GL" encoding="UTF-8">
+        <alias name="kl"/>
+    </locale>
+    <locale name="ko_KR" encoding="UTF-8" xpg_name="ko_KR.UTF-8">
+        <alias name="ko"/>
+    </locale>
+    <locale name="lt_LT" encoding="UTF-8" xpg_name="lt_LT.UTF-8"/>
+    <locale name="ms_MY" encoding="UTF-8">
+        <alias name="ms"/>
+    </locale>
+    <locale name="nb_NO" encoding="UTF-8">
+        <alias name="nb"/>
+    </locale>
+    <locale name="nl_BE" encoding="UTF-8" xpg_name="nl_BE.UTF-8"/>
+    <locale name="nl_NL" encoding="UTF-8" xpg_name="nl_NL.UTF-8"/>
+    <locale name="no_NO" encoding="UTF-8" xpg_name="no_NO.UTF-8"/>
+    <locale name="ny_NO" encoding="UTF-8">
+        <alias name="ny"/>
+    </locale>
+    <locale name="pa_IN" encoding="UTF-8">
+        <alias name="pa"/>
+    </locale>
+    <locale name="pl_PL" encoding="UTF-8" xpg_name="pl_PL.UTF-8"/>
+    <locale name="pt_BR" encoding="UTF-8" xpg_name="pt_BR.UTF-8"/>
+    <locale name="pt_PT" encoding="UTF-8" xpg_name="pt_PT.UTF-8"/>
+    <locale name="sl_SI" encoding="UTF-8">
+        <alias name="sl"/>
+    </locale>
+    <locale name="sq_AL" encoding="UTF-8">
+        <alias name="sq"/>
+    </locale>
+    <locale name="sr-Cyrl_BA" encoding="UTF-8">
+        <alias name="sr-Cyrl"/>
+    </locale>
+    <locale name="sr-Latn_BA" encoding="windows-1250">
+        <alias name="sr-Latn"/>
+    </locale>
+    <locale name="ss_ZA" encoding="UTF-8">
+        <alias name="ss"/>
+    </locale>
+    <locale name="st_ZA" encoding="UTF-8">
+        <alias name="st"/>
+    </locale>
+    <locale name="sv_SE" encoding="UTF-8" xpg_name="sv_SE.UTF-8">
+        <alias name="sv"/>
+    </locale>
+    <locale name="sw_KE" encoding="UTF-8">
+        <alias name="sw"/>
+    </locale>
+    <locale name="ta_IN" encoding="UTF-8">
+        <alias name="ta"/>
+    </locale>
+    <locale name="tk_TM" encoding="UTF-8">
+        <alias name="tk"/>
+    </locale>
+    <locale name="tn_ZA" encoding="UTF-8">
+        <alias name="tn"/>
+    </locale>
+    <locale name="tr_TR" encoding="UTF-8" xpg_name="tr_TR.UTF-8"/>
+    <locale name="ts_ZA" encoding="UTF-8">
+        <alias name="ts"/>
+    </locale>
+    <locale name="uk_UA" encoding="UTF-8" xpg_name="uk_UA.UTF-8">
+        <alias name="uk"/>
+    </locale>
+    <locale name="ur_PK" encoding="UTF-8">
+        <alias name="ur"/>
+    </locale>
+    <locale name="vi_VN" encoding="UTF-8">
+        <alias name="vi"/>
+    </locale>
+    <locale name="wa_BE" encoding="UTF-8">
+        <alias name="wa"/>
+    </locale>
+    <locale name="yi_US" encoding="UTF-8">
+        <alias name="yi"/>
+    </locale>
+    <locale name="zh_CN" encoding="UTF-8" xpg_name="zh_CN.UTF-8">
+        <alias name="zh-Hans"/>
+        <alias name="zh-Hans-CN"/>
+    </locale>
+    <locale name="zh_HK" encoding="UTF-8" xpg_name="zh_HK.UTF-8">
+        <alias name="zh-Hant-HK"/>
+    </locale>
+    <locale name="zh_MO" encoding="UTF-8">
+        <alias name="zh-Hant-MO"/>
+    </locale>
+    <locale name="zh_TW" encoding="UTF-8" xpg_name="zh_TW.UTF-8">
+        <alias name="zh-Hant"/>
+        <alias name="zh-Hant-TW"/>
+    </locale>
+</lcdata>

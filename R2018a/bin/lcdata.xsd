@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- MathWorks Locale Database Schema -->
+<!-- File Name: lcdata.xsd -->
+<!-- Copyright 2007-2016 The MathWorks, Inc. -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="lcdata">
+        <xsd:complexType>
+	    <xsd:sequence>
+	        <xsd:element name="locale" type="locale_type" minOccurs="0" maxOccurs="unbounded" />
+	        <xsd:element name="codeset" type="codeset_type" minOccurs="1" maxOccurs="1" />
+	    </xsd:sequence>
+	</xsd:complexType>
+    </xsd:element> 
+
+    <xsd:complexType name="locale_type">
+        <xsd:sequence>
+            <xsd:element name="l10n" type="l10n_type" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="alias" type="alias_type" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="region_alias" type="alias_type" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    	<xsd:attribute name="name" type="xsd:string" use="required" />
+    	<xsd:attribute name="encoding" type="xsd:string" use="required" />
+    	<xsd:attribute name="xpg_name" type="xsd:string" use="optional" />
+    </xsd:complexType> 
+
+    <xsd:complexType name="l10n_type">
+    	<xsd:attribute name="disable" use="required">
+    	    <xsd:simpleType>
+    	        <xsd:restriction  base="xsd:string">
+    		    <xsd:pattern value="[LOWAI]{1,5}" />
+    		</xsd:restriction>
+    	    </xsd:simpleType>
+    	</xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="alias_type">
+    	<xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+
+    <xsd:complexType name="codeset_type">
+        <xsd:sequence>
+            <xsd:element name="encoding" type="encoding_type" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType> 
+
+    <xsd:complexType name="encoding_type">
+        <xsd:sequence>
+            <xsd:element name="encoding_alias" type="encoding_alias_type" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    	<xsd:attribute name="name" type="xsd:string" use="required" />
+    	<xsd:attribute name="jvm_encoding" type="xsd:string" use="optional" />
+    	<xsd:attribute name="compat" type="xsd:string" use="optional" />
+    </xsd:complexType> 
+
+    <xsd:complexType name="encoding_alias_type">
+    	<xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType> 
+</xsd:schema>
