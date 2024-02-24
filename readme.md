@@ -12,7 +12,7 @@ Thanks for visiting my GitHub account!
 
 [Click Here](https://sunplex.net/softwares/mathworks-matlab-r2018a/?fbclid=IwAR2GXQ06JomxlunChz38muq1fKqWS9YKNQoz67CJimJTR8od3zIon9WBip8)
 
-### Installation guide:
+## Installation guide:
 This guideline is for the novice:
 
 1. Mount R2018a_win64_dvd1.iso as “DVD Drive (X: ) MATHWORKS_R2018A”
